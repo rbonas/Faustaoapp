@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:longClickable="@bool/abc_config_allowActionMenuItemTextWithIcon">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        tools:context=".MainActivity"
+        android:background="@color/switch_thumb_normal_material_dark"
+        android:theme="@style/Base.TextAppearance.AppCompat.Medium"
+        android:backgroundTint="#ff1e5dff"
+        android:longClickable="false"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+        android:background="#ffff6f4c"
+        android:theme="@style/Base.TextAppearance.AppCompat.Display3"/>
+
+</LinearLayout>
